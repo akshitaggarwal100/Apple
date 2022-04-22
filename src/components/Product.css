@@ -1,0 +1,91 @@
+.divStyle {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    height: 800px;
+    box-sizing: border-box;
+    box-shadow: 2px 2px 1.5em -0.9em rgb(202, 202, 202);
+    border-radius: 1em;
+    transition: 0.3s transform, 0.3s box-shadow;
+    background-color: #ffffff;
+}
+
+.divStyle h1 {
+    font-weight: 700;
+}
+
+.divStyle h2 {
+    font-weight: 500;
+}
+
+.divStyle p {
+    font-weight: 400;
+}
+
+.imgStyle {
+    height: 600px;
+    width: 500px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.divStyle:hover {
+    transform: scale(1.01);
+    box-shadow: 2px 2px 1.7em -0.5em rgb(202, 202, 202);
+}
+
+.empty {
+    display: inline-block;
+    background-color: #f5f5f7;
+    width: 600px;
+    height: 800px;
+}
+
+header {
+    background-color: black;
+    padding: 0.8rem 0rem;
+}
+
+nav {
+    width: 50vw;
+    margin: auto;
+}
+
+nav ul {
+    list-style: none;
+    color: #ddcccc;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+ul, li {
+    padding: 0px;
+    margin: 0px;
+}
+
+li {
+    transition: 0.5s color;
+    font-weight: 500;
+}
+
+li:hover {
+    color: white;
+    cursor: pointer;
+}
+
+li a {
+    color: #ddcccc;
+    transition: 0.4s color;
+}
+
+li a:hover {
+    color: #ffffff;
+}
+
+a {
+    text-decoration: none;
+}
